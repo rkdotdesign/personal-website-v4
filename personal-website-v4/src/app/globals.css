@@ -1,0 +1,61 @@
+/* Global Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.main {
+  flex: 1; /* Makes the content take up the remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  text-align: center; /* Center align the text */
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff; /* White text */
+}
+
+/* Subtitle Styling */
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #aaa; /* Light gray for secondary text */
+}
+
+/* Links Section */
+.links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.link {
+  color: #fff; /* White text */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #ccc; /* Light gray on hover */
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  color: #666; /* Gray text for footer */
+}
