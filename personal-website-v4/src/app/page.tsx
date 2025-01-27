@@ -24,7 +24,7 @@ const HomePage = () => {
           <a href="https://instagram.com/rkdotdesign" target="_blank" className="link">
             Instagram
           </a>
-          <a href="https://medium.com/@yrkdotdesign" target="_blank" className="link">
+          <a href="https://medium.com/@rkdotdesign" target="_blank" className="link">
             Medium
           </a>
           <a href="https://ramakrushna.webflow.io." target="_blank" className="link">
